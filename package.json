@@ -1,0 +1,25 @@
+{
+  "name": "prueba2",
+  "version": "1.0.0",
+  "description": "prueba server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./api/hello.html",
+    "dev": "nodemon ./api/hello.html"
+  },
+  "keywords": [
+    "prueba",
+    "node",
+    "express",
+    "javascript"
+  ],
+  "author": "Estuardo Ramos <“estuardoramosg@gmail.com”>",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "algo": "^1.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
