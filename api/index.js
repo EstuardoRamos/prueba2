@@ -21,18 +21,22 @@ app.get('/' , (req , res)=>{
 
  app.get('/ingreso' , (req , res)=>{
     res.sendFile(__dirname+'/views/ingresoCliente.html');
-    console.log(__dirname+'/login.html')
  });
  
  app.get('/registro' , (req , res)=>{
     res.sendFile(__dirname+'/views/ingresoDatos.html');
-    console.log(__dirname+'/login.html')
+   // console.log(__dirname+'/login.html')
  });
 
  app.get('/proces' , (req , res)=>{
     res.sendFile(__dirname+'/js/proces.js');
-    console.log(__dirname+'/login.html')
+   
  });
+
+ app.get('/add-estudio' , (req , res)=>{
+   res.sendFile(__dirname+'/views/add-estudio.html');
+   
+});
 
 
 app.listen(port , ()=> console.log('> Server is up and running on port : ' + port))

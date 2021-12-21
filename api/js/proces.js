@@ -6,6 +6,8 @@ const departamento = document.getElementById("departamento");
 const correo = document.getElementById("correo");
 const contrasena = document.getElementById("contrasena");
 const confir = document.getElementById("confir");
+let nombreEst = document.getElementById("nombre-lab");
+const precio = document.getElementById("precio");
 let bar = document.getElementById("bar");
 
 function registrar() {
@@ -50,4 +52,15 @@ function cambiar(){
     }else{
         location.href="./ingresoCliente.html"
     }
+}
+
+function agregarEst(){
+    console.log('Entrando a agregar');
+    console.log('Prerequisito: Debe estar logueado, debe de ser un administrador y deben tener equipo para realizarlo')
+if(precio.value>0){
+    alert('aceptar')
+}else{
+    console.log('error')
+    alert('Precio debe ser mayor a 0' )
+}
 }

@@ -4,8 +4,8 @@
   "description": "prueba server",
   "main": "index.js",
   "scripts": {
-    "start": "node ./api/hello.html",
-    "dev": "nodemon ./api/hello.html"
+    "start": "node ./api/index.js",
+    "dev": "nodemon ./api/index.js"
   },
   "keywords": [
     "prueba",
